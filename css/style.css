@@ -1,0 +1,133 @@
+.home {
+  background-image: url(../assets/events-heavenly-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+#leftMenu
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+
+.sidenav
+{
+    background-color: #414658;
+    display: none;
+}
+
+.openNav{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.sidenav a:hover{
+    color:  rgba(214, 46, 51 , 0.4);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.background {
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 46, 51, 0.6);
+}
+.content h1 {
+  font-size: 90px;
+}
+.content p {
+  font-size: 20px;
+}
+.reservation h2 {
+  font-size: 40px;
+}
+.singer-box {
+  color: white;
+}
+.singer-box h2 {
+  padding: 15px;
+  border-color: aliceblue !important;
+  cursor: pointer;
+}
+
+.singer-box p {
+  background-color: gray;
+  display: none;
+}
+.counter  {
+  background-image: url(../assets/invitation-2508607__340.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  position: relative;
+}
+.counter .background{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 46, 51, 0.6);
+  }
+  .item {
+    padding: 50px;
+    border: 1px solid #FFF;
+    font-weight: 200px;
+    font-size: 20px;
+}
+#chars {
+    font-size: 20px;
+    color: #D62E33;
+}
+ form button {
+    background-color: black !important;
+    color: #fff !important;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+.social-list i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+.social-list i:hover{
+    background-color: black;
+    color: white;
+}
